@@ -51,10 +51,10 @@ Test:
   <p>
 
   ```
-  <template name="aaaTestsFlutter" value="test(&#10;    'should ', &#10;    () async {&#10;    &#10;        // Given &#10;        &#10;        // When &#10;        &#10;        // Then&#10;    &#10;    },&#10;);" description="create test for Flutter" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="DART" value="true" />
-    </context>
+  <template name="aaaTestsFlutter" value="test(&#10;    'should ',&#10;    () async {&#10;      // Given&#10;&#10;      // When&#10;&#10;      // Then&#10;    },&#10;  );" description="create test for Flutter" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="DART" value="true" />
+  </context>
   </template>
   ```
 
