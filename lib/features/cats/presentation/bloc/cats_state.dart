@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
 abstract class CatsState extends Equatable {
-  CatsState();
+  const CatsState();
 }
 
 class InitialCatsState extends CatsState {
