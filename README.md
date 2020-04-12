@@ -14,3 +14,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## PLUGINS USED
+
+- Clean Architecture for Flutter -> https://plugins.jetbrains.com/plugin/13470-clean-architecture-for-flutter
+- Bloc Code Generator -> https://plugins.jetbrains.com/plugin/12129-bloc-code-generator
