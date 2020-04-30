@@ -4,7 +4,6 @@ import 'package:fluttertest/core/usecase/usecase.dart';
 import 'package:fluttertest/features/number_trivia/domain/entities/number_trivia.dart';
 import 'package:fluttertest/features/number_trivia/domain/repositories/number_trivia_repository.dart';
 
-
 class GetConcreteNumberTrivia implements UseCase<NumberTrivia, int> {
   final NumberTriviaRepository repository;
 
