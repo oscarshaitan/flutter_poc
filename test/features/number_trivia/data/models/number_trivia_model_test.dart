@@ -23,7 +23,7 @@ void main() {
       () async {
         // arrange
         final Map<String, dynamic> jsonMap =
-            json.decode(mockedResponse('trivia.json'));
+            json.decode(mockedResponse('number_trivia/trivia.json'));
         // act
         final result = NumberTriviaModel.fromJson(jsonMap);
         // assert
@@ -36,7 +36,7 @@ void main() {
       () async {
         // arrange
         final Map<String, dynamic> jsonMap =
-            json.decode(mockedResponse('trivia_double.json'));
+            json.decode(mockedResponse('number_trivia/trivia_double.json'));
         // act
         final result = NumberTriviaModel.fromJson(jsonMap);
         // assert
